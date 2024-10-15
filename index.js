@@ -100,7 +100,7 @@ const renderItems = (filteredItems) => {
   totalElement.textContent = `Total Number Of Tasks: ${filteredItems.length}`;
 
   if (filteredItems.length === 0) {
-    const noItemsMessage = document.createElement("div");
+    const noItemsMessage = document.createElement("p");
     noItemsMessage.textContent = "No items found";
     itemsElement.appendChild(noItemsMessage);
   } else {

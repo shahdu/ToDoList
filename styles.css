@@ -92,3 +92,10 @@ body {
   color: aliceblue;
   margin-left: 10%;
 }
+
+p{
+  color: aliceblue;
+  display: flex;
+  justify-content: right;
+font-size: large;
+}
